@@ -3,10 +3,12 @@
     margin: 0;
     box-sizing: border-box;
     color: #a09803;
+    font-family: 'Roboto', sans-serif;
 }
 
 ul{
     list-style-type: none;
+    font-style: italic;
 }
 
 a{
@@ -14,9 +16,16 @@ a{
 }
 
 body { 
-    /* background-image: url(./pexels-jakub-novacek-924824.jpg);
-    background-repeat: no-repeat;
-    background-position: center center fixed; */
-    background: url(./pexels-jakub-novacek-924824.jpg) no-repeat center center fixed;
+    background: url(./pexels-adrien-olichon-2387793.jpg) no-repeat center center fixed;
     background-size: cover;
+}
+.container {
+    text-align: center;
+}
+.name h1 {
+    font-size: 50px;
+}
+
+.name h5 {
+    font-size: 22px;
 }
