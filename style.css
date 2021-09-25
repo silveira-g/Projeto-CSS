@@ -19,6 +19,21 @@ body {
     background: url(./pexels-adrien-olichon-2387793.jpg) no-repeat center center fixed;
     background-size: cover;
 }
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+header ul{
+    display: flex;
+}
+
+header ul li {
+    padding: 5px;
+}
+
 .container {
     text-align: center;
 }
