@@ -40,11 +40,11 @@
                 <h1>Guilherme Silveira Alves</h1>
                 <h5>Full-Stack Developer</h5>
             </div>
-            <div id="arrow">
-                <i class="fas fa-sort-down"></i>
+            <div onclick="displayAbout()" id="arrow">
+                <i id="animation" class="fas fa-sort-down"></i>
             </div>
 
-            <div id="about">
+            <div style="display: none;" id="about">
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Animi laborum praesentium illo dolorum
                     inventore fuga hic veniam non quidem quia architecto, error facere sapiente voluptates dolor
                     suscipit qui doloremque quaerat?
@@ -62,6 +62,15 @@
             </div>
         </section>
     </main>
+    <script>
+        function displayAbout() {
+            var arrow = document.getElementById('animation');
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about');
+            display.classList.toggle('active');
+
+        }
+    </script>
 </body>
 
 </html>
