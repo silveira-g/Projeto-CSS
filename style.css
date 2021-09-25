@@ -26,6 +26,7 @@ header {
     align-items: center;
     padding: 10px;
     border-bottom: 2px solid #fff;
+    margin-bottom: 45px;
 }
 header ul{
     display: flex;
@@ -95,6 +96,7 @@ header ul li a:hover {
 .form {
     width: 40%;
     margin: 0 auto;
+    margin-top: 30px;
     border: thick double #fff;
     padding: 10px;
 }
@@ -123,4 +125,25 @@ header ul li a:hover {
 .form button:hover{
     background-color: #9c551b;
     color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+    .form {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .name h1 {
+        font-size: 25px;
+    }
+
+    .name h5 {
+        font-size: 15px;
+    }
+}
+
+#about p {
+    max-width: 80%;
+    text-align: justify;
 }
